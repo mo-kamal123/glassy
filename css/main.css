@@ -159,6 +159,7 @@ body{
         font-size: 10px !important;
         padding: 0 0 30px 10px !important;
         padding-left: 10px !important;
+        letter-spacing: 1px;
     }
     button {
         padding: 8px 10px !important;
@@ -172,7 +173,7 @@ body{
         width: 270px !important;
         height: 375px !important;
         right: 13%;
-        bottom: 26%;
+        bottom: 24%;
     }
     .ballon {
         width: 200px;
