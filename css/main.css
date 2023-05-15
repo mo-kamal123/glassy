@@ -132,6 +132,10 @@ body{
     .head ul {
         display: none;
     }
+     .box {
+        height: 590px;
+    }
+
 }
 .detail h2 {
     font-size: 50px;
