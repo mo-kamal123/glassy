@@ -138,7 +138,7 @@ body{
     .ball {
         width: 300px;
         height: 300px;
-        bottom: 100px;
+        bottom: 150px;
     }
     .ballon {
         width: 300px;
@@ -152,19 +152,23 @@ body{
     }
     .detail h2 {
         font-size: 25px !important;
+        padding-left: 10px !important;
     }
     .detail p {
         font-size: 10px !important;
-        padding: 0 0 30px 40px !important;
+        padding: 0 0 30px 10px !important;
+        padding-left: 10px !important;
     }
     button {
         padding: 8px 10px !important;
         font-size: 15px !important;
+        margin-left: 10px !important;
     }
     .ball {
         width: 200px !important;
         height: 200px !important;
         right: 10px;
+        bottom: 100px;
     }
     .ballon {
         width: 200px;
