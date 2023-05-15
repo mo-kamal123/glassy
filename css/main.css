@@ -29,27 +29,27 @@ body{
 }
 .ballon {
     content: "";
-    width: 330px;
+    width: 300px;
     position: absolute;
     /* background:linear-gradient(rgb(10, 226, 219),rgb(247, 251, 9)); */
     background-color:  rgb(10, 226, 219);
-    height: 330px;
+    height: 300px;
     border-radius: 50%;
     z-index: -1;
-    top: 10px;
+    top: 100px;
     left: 50px;
     transition: 10s;
 }
 .ball {
     content: "";
-    width: 330px;
+    width: 300px;
     position: absolute;
-    height: 330px;
+    height: 300px;
     /* background:linear-gradient(blueviolet,rgb(249, 22, 192)); */
     background-color: blueviolet;
     border-radius: 50%;
     z-index: -1;
-    bottom: 10px;
+    bottom: 100px;
     right: 50px;
     transition: 10s;
 }
