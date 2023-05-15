@@ -166,7 +166,7 @@ body{
         margin-left: 10px !important;
     }
     .logo {
-        color: white;
+        color: white !important;
     }
     .ball {
         width: 270px !important;
@@ -179,7 +179,7 @@ body{
         height: 200px;
         top: 100px;
         left: 10px;
-        display: none;
+        display: none !important;
     }
 }
 .detail h2 {
