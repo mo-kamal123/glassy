@@ -29,27 +29,27 @@ body{
 }
 .ballon {
     content: "";
-    width: 300px;
+    width: 330px;
     position: absolute;
     /* background:linear-gradient(rgb(10, 226, 219),rgb(247, 251, 9)); */
     background-color:  rgb(10, 226, 219);
-    height: 300px;
+    height: 330px;
     border-radius: 50%;
     z-index: -1;
-    top: 350px;
+    top: 10px;
     left: 50px;
     transition: 10s;
 }
 .ball {
     content: "";
-    width: 300px;
+    width: 330px;
     position: absolute;
-    height: 300px;
+    height: 330px;
     /* background:linear-gradient(blueviolet,rgb(249, 22, 192)); */
     background-color: blueviolet;
     border-radius: 50%;
     z-index: -1;
-    bottom: 150px;
+    bottom: 10px;
     right: 50px;
     transition: 10s;
 }
@@ -132,10 +132,9 @@ body{
     .head ul {
         display: none;
     }
-     .box {
+    .box {
         height: 590px;
     }
-
 }
 .detail h2 {
     font-size: 50px;
