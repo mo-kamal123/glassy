@@ -139,6 +139,7 @@ body{
         width: 300px;
         height: 300px;
         bottom: 150px;
+        opacity: 0.5;
     }
     .ballon {
         width: 300px;
@@ -164,17 +165,21 @@ body{
         font-size: 15px !important;
         margin-left: 10px !important;
     }
+    .logo {
+        color: white;
+    }
     .ball {
-        width: 200px !important;
-        height: 200px !important;
-        right: 10px;
-        bottom: 100px;
+        width: 270px !important;
+        height: 375px !important;
+        right: 13%;
+        bottom: 26%;
     }
     .ballon {
         width: 200px;
         height: 200px;
         top: 100px;
         left: 10px;
+        display: none;
     }
 }
 .detail h2 {
