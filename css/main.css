@@ -118,11 +118,21 @@ body{
 
 .detail{
     display: flex;
-    flex-direction: column;
     align-items: center;
     /* margin-top: 80px; */
     gap: 100px;
 } 
+@media (max-width:1000px) {
+    .detail {
+        flex-direction: column;
+    }
+    img{
+        display: none;
+    }
+    .head ul {
+        display: none;
+    }
+}
 .detail h2 {
     font-size: 50px;
     padding: 20px 8px 30px 40px;
