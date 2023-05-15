@@ -4,7 +4,7 @@
     box-sizing: border-box;
     transition: 0.3s;
     color: white;
-    font-family: sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 body{
     background-color: black;
@@ -134,6 +134,43 @@ body{
     }
     .box {
         height: 590px;
+    }
+    .ball {
+        width: 300px;
+        height: 300px;
+        bottom: 100px;
+    }
+    .ballon {
+        width: 300px;
+        height: 300px;
+        top: 250px;
+    }
+}
+@media (max-width:400px) {
+    .box {
+        height: 440px;
+    }
+    .detail h2 {
+        font-size: 25px !important;
+    }
+    .detail p {
+        font-size: 10px !important;
+        padding: 0 0 30px 40px !important;
+    }
+    button {
+        padding: 8px 10px !important;
+        font-size: 15px !important;
+    }
+    .ball {
+        width: 200px !important;
+        height: 200px !important;
+        right: 10px;
+    }
+    .ballon {
+        width: 200px;
+        height: 200px;
+        top: 100px;
+        left: 10px;
     }
 }
 .detail h2 {
